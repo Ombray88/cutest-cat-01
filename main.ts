@@ -10,6 +10,11 @@
 // reads at 300 pixels across. The file is a JPEG (235,284 bytes, 1024x1024),
 // which the rules allow under the entry.png name.
 //
+// v4 replaces the v3 image: star-sparkle eyes and an upright, fully visible
+// plush fish, no tail clutter. v3 was never judged in development — the
+// day's judge budget ran out with 194 of 393 entries unjudged — so this
+// version improves on it directly for the final heat.
+//
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
