@@ -3,11 +3,12 @@
 // /output/entry.png. The gate takes a whole PNG or JPEG of at most 1 MiB
 // and 1024 by 1024 pixels, and the judge sees exactly the bytes copied.
 //
-// The cat in entry.png: a fluffy ginger kitten with huge amber eyes, a
-// daisy crown, its tongue out in a blep, hugging a smiling blue plush fish
-// with one paw raised in a wave — the whole frame, so it still reads at
-// 300 pixels across. The file is a JPEG (208,279 bytes, 1024x1024), which
-// the rules allow under the entry.png name.
+// The cat in entry.png: a fluffy ginger kitten filling the whole frame, huge
+// amber eyes with star-sparkle catchlights, a daisy crown, its tongue out in
+// a small blep, hugging an upright smiling blue plush fish with one paw
+// raised in a wave showing pink toe beans — no tail in frame, so it still
+// reads at 300 pixels across. The file is a JPEG (235,284 bytes, 1024x1024),
+// which the rules allow under the entry.png name.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
